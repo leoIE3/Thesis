@@ -1,0 +1,102 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage[parfill]{parskip}
+\usepackage[a4paper,margin=1.2in]{geometry}
+\usepackage{float}
+%\usepackage[style=ieee,citestyle=numeric-comp]{biblatex}
+\usepackage[style=nature,sorting=nyt]{biblatex}
+
+\addbibresource{references.bib}
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{fancyvrb}
+\usepackage{array, booktabs, caption}
+\usepackage{makecell}
+\renewcommand\theadfont{\bfseries}
+\usepackage{epstopdf}
+\usepackage{glossaries}
+\usepackage{url}
+\usepackage{booktabs}
+\graphicspath{ {images/} }
+%%%%%%%%%%%%%%%%%%
+\makeglossaries
+\newacronym{irp}{IRP}{International Resource Panel} 
+\newacronym{ec}{EC}{European Commission}
+\newacronym{eu}{EU}{European Union}
+\newacronym{ce}{CE}{Circular Economy}
+\newacronym{elt}{ELT}{End-of-Life Tire}
+\newacronym{srm}{SRM}{Secondary Raw Material}
+\newacronym{un}{UN}{United Nations}
+\newacronym{iam}{IAM}{Integrated Assessment Model}
+\newacronym{cc}{CC}{Climate Change}
+\newacronym{crm}{CRM}{Critical Raw Material}
+\newacronym{wp}{WP}{Work Packages}
+\newacronym{lca}{LCA}{Life Cycle Assessment}
+\newacronym{eol}{EoL}{End-of-Life}
+\newacronym{mfa}{MFA}{Material Flow Analysis}
+%%%%%%%%%%%%%%%%%%
+
+
+\title{\rule{\textwidth}{1.3px}
+\vspace{0.4cm}
+\bf{TPM - 1 page proposal}}
+\author{Leonardo Melo - 1940988/4690923}
+\date{\today\vspace{0.1cm}
+\rule{\textwidth}{1.3px}}
+
+\begin{document}
+
+\maketitle
+
+
+\section*{Examiners}
+\begin{itemize}
+    \item Core examiner: Professor Esther van der Voet, CML, ULeiden
+    \item Second examiner: Professor Yangxiang Yang, 3mE, TU Delft
+\end{itemize}
+
+\section*{Background}
+The \acrfull{un} \acrfull{irp} has been commissioned to develop future scenarios in terms of resource use that can be linked to \acrfullpl{iam} and to \acrfull{cc}. Future use of resources is of growing concern and resource decoupling is a widely appraised target by the UN. One of the aims of the task is to develop a resource model that can be linked to \acrshortpl{iam} to shed light on consequences of future resource use. \acrshortpl{iam} are cross-disciplinary models that compile data from several scientific fields with the aim of providing an integral framework for analysis. These models are widely used in environmental sciences and commonly chosen in climate change scenarios. The goal of future use scenarios is to help decision makers in elaborating policy for the efficient use of resources and to avoid depletion of natural stocks. One of the members of the expert panel that has been commissioned to elaborate future use scenarios of natural resources is Professor Ester van der
+Voet from CML.
+
+
+The SCRREEN\footnote{\url{http://scrreen.eu/the-project/}} project running in the \acrshort{eu} is a project that aims at building expert knowledge on the topic of \acrfullpl{crm}. It is divided in several \acrfullpl{wp} that range from mapping the value chain of \acrshortpl{crm}, analyzing current technological/policy/innovation gaps in the value chain and barriers to substitutability and improvement of e-waste management. The group of metals production, refining and recycling in the faculty 3mE in TU Delft is participating in the elaboration of \acrshort{wp} 6.2 \textit{“Technological gaps/barriers on secondary resources”} which aims at identifying technological opportunities in the recovery of \acrshortpl{crm} from waste. This includes analysis of waste flows, technologies that can increase the recovery potential of \acrshortpl{crm} from waste flows, \acrfull{lca} analysis of CRMs recovery from waste (pyro- and hydro-metallurgy processes), identification of hotspots in \acrshort{lca} impact categories that hinder the increase in recycling rates of \acrshortpl{crm} and means to improve these.
+
+
+\section*{Proposed research}
+The research will start by identifying a resource from the \acrshort{crm} list of the \acrshort{eu} that can fit into both research topics. The work will include (1) mapping the value chain, (2) global consumption model, (3) impacts of the \acrfull{eol} phase and elaboration of a (4) future use scenario model for the chosen \acrshort{crm} that can be included in the \acrshort{iam} framework of the
+\acrshort{irp}. Potential research paths for the 4 proposed topics are:
+\begin{enumerate}
+    \item \textit{Mapping the value chain:} Carry out extensive literature review and interviews with stakeholders to fill in missing information gaps
+    \item \textit{Global consumption model:} Build an \acrfull{mfa} that can map resource inflows, stocks and outflows for the chosen \acrshort{crm}.
+    \item \textit{Impacts of \acrshort{eol} phase:} Perform \acrshort{lca} on selected techniques aimed at recycling the \acrshort{crm} and identify hotspots in the \acrshort{eol} value chain
+    \item \textit{Future use scenario:} Make a Vensim model that will gather all use data and develop variables that can replicate growth scenarios.
+\end{enumerate}
+
+The thesis is to be conducted from June 2018 and to be finalized by October 2018.
+
+\section*{Research question}
+A potential research question for the chosen \acrshort{crm} would be:
+\begin{itemize}
+\item What are the current flows/stocks of substance X in the economy?
+    \begin{itemize}
+    \item \textit{What are the current \acrshort{eol} management paths for substance X?}
+    \item \textit{What policies should be adopted to cope with the future demand scenario?}
+    \end{itemize}
+
+\end{itemize}
+\vspace{1.5cm}
+\printglossary
+\addcontentsline{toc}{section}{References}
+\printbibliography
+\end{document}
+
